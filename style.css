@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(./layered-steps-haikei.svg) ;
+    background-position: center;
+    background-size: cover;
+    height: 97.9vh;
+    display: grid;
+    place-items: center;
+    color:#fff;
+    font-family:comfortaa;
+}
+.container{
+    padding: 24px;
+    background-color: #ffffffb6;
+    backdrop-filter: blur(50px);
+    /* color: rgb(39, 112, 136); */
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 400px;
+    height: 400px;
+}
+.container form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form div{
+display: flex;
+flex-direction: column;
+gap: 12px;
+position: relative;
+outline: 2px solid rgba(39, 112, 136, 0.553);
+outline-offset: 8px;
+}
+button{
+    padding: 8px;
+    border-radius: 5px;
+    border:0 ;
+    background-color: rgb(39, 112, 136);
+    color: #fff;
+    font-size: 16px;
+}
+input{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: #5b6b743f;
+    opacity: .5;
+    transition: .25s opacity linear;
+}
+input:focus {
+    opacity: 1;
+}
+label{
+    position: absolute;
+    background-color: #BCB6BF;
+    
+    top: -60%;
+}
+small{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+span{
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    color: black;
+}
